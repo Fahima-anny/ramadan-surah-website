@@ -1,0 +1,81 @@
+
+/* main{
+  height: 93vh;
+} */
+/* 5 */
+.btn-5 {
+    font-weight: 700;
+    width: 200px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: aquamarine;
+  background: linear-gradient(0deg, rgb(0, 238, 255) 0%, rgb(202, 250, 254) 100%);
+  }
+  .btn-5:hover {
+    color: black;
+    background:linear-gradient(0deg, rgb(229, 244, 245) 0%, rgb(0, 238, 255) 100%);
+     box-shadow:none;
+     transition: 1s;
+  }
+  .btn-5:before,
+  .btn-5:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #03b0f5;
+    box-shadow:
+     -1px -1px 5px 0px #fff,
+     7px 7px 20px 0px #0003,
+     4px 4px 5px 0px #0002;
+    transition:400ms ease all;
+  }
+  .btn-5:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .btn-5:hover:before,
+  .btn-5:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  
+
+.allSurah{
+  margin-top: 15vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+ display: none;
+    width: 70vw;
+    border: 3px solid aqua;
+    box-shadow: 0px 0px 200px gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+  .allSurah{
+    margin-top: 0;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+      width: 90vw;
+  }
+  
+}
+
+
